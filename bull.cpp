@@ -26,5 +26,3 @@ std::string Bull::to_string(void)
 {
     return "Bulldozer " + name;
 }
-
-cout << Bull.to_string() << endl;

@@ -28,4 +28,6 @@ int main()
     print(&start);
 
     return 0;
+
+    cout <<
 }

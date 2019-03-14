@@ -12,6 +12,6 @@ public:
 
 public:
   void set_next(Node *node);
-  Node *get_next(void);
-  int get_data(void);
+  Node *get_next();
+  int get_data();
 };

@@ -5,17 +5,17 @@ Node::Node(int data)
     this->data = data;
 }
 
-void Node::get_data()
+int Node::get_data()
 {
-    return get_data;
+    return data;
 }
 
 void Node::set_next(Node *node)
 {
-    this->set_next = next;
+    this->next = node;
 }
 
-void Node::get_next()
+Node *Node::get_next()
 {
     return next;
 }
