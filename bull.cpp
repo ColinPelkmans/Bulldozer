@@ -12,11 +12,6 @@ void Bull::set_name(std::string name)
     this->name = name;
 }
 
-std::string Bull::to_string(void)
-{
-    return "Bulldozer " + name;
-}
-
 void Bull::set_weight(int weight)
 {
     this->weight = weight;
@@ -26,3 +21,10 @@ void Bull::set_capacity(int liftCapacity)
 {
     this->liftCapacity = liftCapacity;
 }
+
+std::string Bull::to_string(void)
+{
+    return "Bulldozer " + name;
+}
+
+cout << Bull.to_string() << endl;
